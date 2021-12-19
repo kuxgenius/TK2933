@@ -1,0 +1,9 @@
+as	Hibisbus	Hot 			Outdoor	20	Stem
+as	Setawar		Hot			Outdoor	0.5	Leaves	
+as	Fern		Tropical		Indoor	10	Spores
+as	Crysanthemum	tropical 		Outdoor	10	Dividing
+as	Rose		Mediterranean/tropical	Outdoor	20	Stem
+se	Broccoli	Mediterranean/tropical	Outdoor false	Insects
+se	Guava		Tropical		Outdoor	true	Bats
+se	Cardamon	Tropical		Outdoor	true	Insects
+se	Orchids		Tropical		Indoor	false	Birds
