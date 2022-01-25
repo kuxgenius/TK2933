@@ -117,7 +117,7 @@ public class CafeOrder {
 	public void initialize() {
 		unit = 1;
 		slctTopping = 0;
-		
+		price=0.00;
 		frmCocoffeeHut = new JFrame();
 		frmCocoffeeHut.setTitle("Cocoffee Hut");
 		frmCocoffeeHut.setBounds(100, 100, 450, 550);

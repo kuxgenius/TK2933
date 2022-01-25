@@ -67,11 +67,13 @@ public class MainFrame {
 		frmWelcomeToCocoffee.setBounds(100, 100, 450, 500);
 		frmWelcomeToCocoffee.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmWelcomeToCocoffee.getContentPane().setLayout(null);
-		CafeOrder order = new CafeOrder();
+				
 		JLabel lblNewLabel = new JLabel("Welcome to Cocoffee Hut");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		lblNewLabel.setBounds(95, 11, 242, 39);
 		frmWelcomeToCocoffee.getContentPane().add(lblNewLabel);
+				
+		CafeOrder order = new CafeOrder();
 		
 		btnAddOrder = new JButton("Order Drinks");
 		btnAddOrder.addActionListener(new ActionListener() {
